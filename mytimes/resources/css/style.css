@@ -1,0 +1,126 @@
+html {
+  display: block;
+  font-family: Georgia;
+}
+
+body {
+  display: block;
+  margin: 0px;
+}
+
+header {
+  display: flex;
+  height: 80px;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  flex-grow: 1;
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  background-color: white;
+  border-bottom: 1px solid black;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+  padding-left: 30px;
+}
+
+.logo img {
+
+}
+
+.logo span {
+  padding-left: 20px;
+  color: MediumAquamarine;
+}
+
+nav {
+  margin-right: 10px;
+}
+
+nav span {
+  display: inline-block;
+  padding: 10px 20px;
+}
+
+span a {
+  color: black;
+}
+
+.main_container {
+  display: flex;
+  align-content: space-between;
+  width: 1232px;
+  margin: 0 auto 78px auto;
+  padding-top: 40px;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  margin-right: 32px;
+}
+
+.large {
+  display: flex;
+  width: 630px;
+}
+
+.medium {
+  display: flex;
+  width: 300px;
+}
+
+.small {
+  display: flex;
+  width: 240px;
+}
+
+.news_item {
+  font-size: 17px;
+}
+
+.news_item span {
+  display: block;
+}
+
+.main_story {
+  background-image: url(../images/img-story-main.png);
+  height: 300px;
+  width: 629px;
+}
+
+.main_story span {
+  font-weight: bold;
+  font-size: 40px;
+  color: white;
+}
+
+.img1 {
+  background-image: url(../images/img-story-1.png);
+  height: 300px;
+  width: 299px;
+}
+
+.img span {
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  text-align: center;
+}
+
+.img2 {
+  background-image: url(../images/img-story-2.png);
+  height: 300px;
+  width: 598px;
+}
+
+.img3 {
+  background-image: url(../images/img-story-3.png);
+  height: 300px;
+  width: 598px;
+}
