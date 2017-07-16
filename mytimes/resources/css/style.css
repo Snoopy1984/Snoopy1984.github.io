@@ -10,11 +10,11 @@ body {
 
 header {
   display: flex;
+  align-items: center;
+  position: fixed;
+  z-index: 1;
   height: 80px;
   width: 100%;
-  justify-content: space-between;
-  align-items: center;
-  flex-grow: 1;
   font-family: Verdana;
   font-size: 14px;
   font-weight: bold;
@@ -30,21 +30,20 @@ header {
 }
 
 .logo img {
-
+  width: 70px;
+  height: 60px;
+  margin-right: 12px;
 }
 
 .logo span {
-  padding-left: 20px;
   color: MediumAquamarine;
 }
 
 nav {
-  margin-right: 10px;
-}
-
-nav span {
   display: inline-block;
-  padding: 10px 20px;
+  padding-right: 30px;
+  align-items: center;
+  text-align: center;
 }
 
 span a {
@@ -53,10 +52,9 @@ span a {
 
 .main_container {
   display: flex;
-  align-content: space-between;
   width: 1232px;
   margin: 0 auto 78px auto;
-  padding-top: 40px;
+  padding-top: 116px;
 }
 
 .column {
@@ -66,18 +64,34 @@ span a {
 }
 
 .large {
-  display: flex;
   width: 630px;
 }
 
 .medium {
-  display: flex;
   width: 300px;
 }
 
 .small {
-  display: flex;
   width: 240px;
+}
+
+.main_story {
+  display: block;
+}
+
+.main_story span {
+  font-weight: bold;
+  font-size: 40px;
+  text-align: left;
+  color: white;
+}
+
+.image_content {
+  background-image: url(../images/img-story-main.png);
+  width: 630px;
+  margin-top: 0;
+  font-size: 40px;
+  text-align: left;
 }
 
 .news_item {
@@ -88,39 +102,42 @@ span a {
   display: block;
 }
 
-.main_story {
-  background-image: url(../images/img-story-main.png);
-  height: 300px;
-  width: 629px;
-}
-
-.main_story span {
-  font-weight: bold;
-  font-size: 40px;
-  color: white;
-}
-
 .img1 {
   background-image: url(../images/img-story-1.png);
   height: 300px;
   width: 299px;
 }
 
-.img span {
+.imagecontent span {
   font-weight: bold;
   font-size: 30px;
   color: white;
   text-align: center;
 }
 
+.narrative {
+  margin-top: 16px;
+  font-size: 14px;
+}
+
+p {
+  display: block;
+}
+
+.text_content {
+
+}
+
 .img2 {
   background-image: url(../images/img-story-2.png);
+  background-repeat: no-repeat;
   height: 300px;
   width: 598px;
 }
 
 .img3 {
   background-image: url(../images/img-story-3.png);
+  background-repeat: no-repeat;
   height: 300px;
   width: 598px;
 }
