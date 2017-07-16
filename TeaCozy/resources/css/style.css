@@ -116,11 +116,7 @@ h4 {
 }
 
 #locations {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: row;
-  flex-wrap: wrap;
+  display: block;
   width: 1200px;
   height: 500px;
   background-image: url("../images/img-locations-background.jpg");
@@ -128,9 +124,18 @@ h4 {
 }
 
 .text_locations {
-  display: inline-block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
   width: 100%;
   margin-bottom: 15px;
+}
+
+.header_locations {
+  display: block;
+  width: 100%;
 }
 
 .location {
